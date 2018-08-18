@@ -56,7 +56,7 @@ public class UserSignupRequest {
         return isTutor;
     }
 
-    public void setTutor(boolean tutor) {
-        isTutor = tutor;
+    public void setIsTutor(boolean isTutor) {
+        this.isTutor = isTutor;
     }
 }

@@ -2,31 +2,29 @@ package me.ferdz.tutorfinder.features.signup;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.EditText;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import me.ferdz.tutorfinder.R;
-import me.ferdz.tutorfinder.models.UserSignupRequest;
 
 import static me.ferdz.tutorfinder.Constants.IS_TUTOR_EXTRA;
 
 public class SignupActivity extends AppCompatActivity {
 
-    @BindView(R.id.signup_firstName)
+    @BindView(R.id.signup_firstNameEditText)
     protected EditText firstName;
-    @BindView(R.id.signup_lastName)
+    @BindView(R.id.signup_lastNameEditText)
     protected EditText lastName;
-    @BindView(R.id.signup_email)
+    @BindView(R.id.signup_emailEditText)
     protected EditText email;
-    @BindView(R.id.signup_password)
+    @BindView(R.id.signup_passwordEditText)
     protected EditText password;
-    @BindView(R.id.signup_confirmPassword)
+    @BindView(R.id.signup_confirmPasswordEditText)
     protected EditText confirmPassword;
 
-    boolean isTutor;
+    private boolean isTutor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
