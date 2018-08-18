@@ -1,7 +1,9 @@
-package me.ferdz.tutorfinder;
+package me.ferdz.tutorfinder.features.onboarding;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import me.ferdz.tutorfinder.R;
 
 public class ActivityStudentOnboarding extends AppCompatActivity {
 

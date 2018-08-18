@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TutorFinder</string>
+    <string name="action_settings">Paramètres</string>
+
+    <!-- Signup page -->
+    <string name="signup_signupBtn">S\'inscrire</string>
+    <string name="signup_firstName">Prénom</string>
+    <string name="signup_lastName">Nom de Famille</string>
+    <string name="signup_email">Courriel</string>
+    <string name="signup_password">Mot de passe</string>
+    <string name="signup_confirmPassword">Confirmer le mot de passe</string>
+</resources>
